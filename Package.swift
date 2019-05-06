@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "PwnedPasswords",
-            path: "lottie-swift/src"
+            path: "src"
         )
     ]
 )
