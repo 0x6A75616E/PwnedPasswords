@@ -1,5 +1,4 @@
 # PwnedPasswords
-[![Version](https://img.shields.io/cocoapods/v/PwnedPasswords.svg?style=flat)](https://cocoapods.org/pods/PwnedPasswords)
 [![License](https://img.shields.io/cocoapods/l/PwnedPasswords.svg?style=flat)](https://cocoapods.org/pods/PwnedPasswords)
 
 PwnedPasswords implements a client for HaveIBeenPwned.com's [Pwned Passwords API v2](https://haveibeenpwned.com/API/v2#PwnedPasswords) in Swift.
