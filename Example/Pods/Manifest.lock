@@ -1,0 +1,16 @@
+PODS:
+  - PwnedPasswords (0.1.0)
+
+DEPENDENCIES:
+  - PwnedPasswords (from `../`)
+
+EXTERNAL SOURCES:
+  PwnedPasswords:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PwnedPasswords: 41b714e327a4500753774d65ac3403c4370dc2ba
+
+PODFILE CHECKSUM: 2021494a2a9fb331dc046a282c72fa29516067e5
+
+COCOAPODS: 1.7.0.rc.1
