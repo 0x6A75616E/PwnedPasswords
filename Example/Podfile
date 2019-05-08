@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'PwnedPasswords_Example' do
-  pod 'PwnedPasswords', :path => '../'
+  pod 'SwiftPwnedPasswords', :path => '../'
 
   target 'PwnedPasswords_Tests' do
     inherit! :search_paths
