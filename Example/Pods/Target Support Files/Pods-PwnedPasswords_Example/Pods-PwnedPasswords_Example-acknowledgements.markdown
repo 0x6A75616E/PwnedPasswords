@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## PwnedPasswords
+## SwiftPwnedPasswords
 
 Copyright (c) 2019 0x6A75616E <contact@0x6A75616E.dev>
 

@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00AF0EF7BF09C0CF4DAF4758D6EECB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		05AAA3F79B2ED9D3BAD6DB85B730A54B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		08966F3BA9FA39144283C2254204F541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2F77F616083B6945EC51C37DDAACA5C1 /* Pods-PwnedPasswords_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7224262C0FF7C1FDC79B55F4EB19BC8 /* Pods-PwnedPasswords_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52740C19B81FBB4876F59AD96E1E9468 /* Pods-PwnedPasswords_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E73C1CD65051509231E679E29F03 /* Pods-PwnedPasswords_Example-dummy.m */; };
-		899C5B49D63C3D6A05E36FAB85F9EAE1 /* PwnedPasswords-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B432A864BABD5CBF6819F04B57640F5D /* PwnedPasswords-dummy.m */; };
+		0D54A449A820ED20F2FA5C785011FDC8 /* PwnedPasswords.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1A8D4198E224EC8F4A178D0B64AFF /* PwnedPasswords.swift */; };
+		114800F040161C91A84FB3A4086C4EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7E81BF8AE0FCE77976F5B00881606B45 /* SwiftPwnedPasswords-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6EB56157782FEAA16160315AE4B8A8 /* SwiftPwnedPasswords-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D121BAAEDB92BC0AB5912D7B616B0BA /* Pods-PwnedPasswords_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11719413D7E0EFAEDD03AEAAAC047F /* Pods-PwnedPasswords_Tests-dummy.m */; };
 		B3E6C8DD1724E3142CE2C2917348CF47 /* Pods-PwnedPasswords_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3656B157AA65F5709F4DF8EDFB79AB2E /* Pods-PwnedPasswords_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB0942A5414D49F8FE7988182434D1CC /* PwnedPasswords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD5D790BB1409881B56513239B759F1 /* PwnedPasswords.swift */; };
-		E6AF1FCF4D24CD92BB7BBBAE70554DC6 /* PwnedPasswords-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F351D3C91937C792BECC6799844E79 /* PwnedPasswords-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA7ED5CE6A4267EF08A787874C1AF79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DFC6C019DF2D725003D2A6E677AB66BC /* SwiftPwnedPasswords-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3C9E140F8881F69F8B747E7F68644 /* SwiftPwnedPasswords-dummy.m */; };
+		E35114C72D7D477C07030A41BF48807B /* Pods-PwnedPasswords_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7224262C0FF7C1FDC79B55F4EB19BC8 /* Pods-PwnedPasswords_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53821F27E2BA1BB0E4FCCE19BD13C29 /* Pods-PwnedPasswords_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1E73C1CD65051509231E679E29F03 /* Pods-PwnedPasswords_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,59 +27,51 @@
 			remoteGlobalIDString = 409EF450651549D392AB558BE3FE2DC4;
 			remoteInfo = "Pods-PwnedPasswords_Example";
 		};
-		E79F6A819C63DC680E2442A9F56B25D5 /* PBXContainerItemProxy */ = {
+		D675C1AA6E8036B81B7EB83ACF5766C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E7EA3F808455F21DF692C7F6241E9F1;
-			remoteInfo = PwnedPasswords;
+			remoteGlobalIDString = E3CD57A8590F3BBEA2D310F676BB67E2;
+			remoteInfo = SwiftPwnedPasswords;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01C1E73C1CD65051509231E679E29F03 /* Pods-PwnedPasswords_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PwnedPasswords_Example-dummy.m"; sourceTree = "<group>"; };
-		09D98E45D98E5140A1E1B73C262E0C0D /* PwnedPasswords-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PwnedPasswords-Info.plist"; sourceTree = "<group>"; };
-		0BF631BACD219ABBEF5F89DA98A5D4B7 /* PwnedPasswords.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PwnedPasswords.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13A09C7D611CD19321A55E5978769293 /* Pods-PwnedPasswords_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PwnedPasswords_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1AD2A2B46644AE1535D5E627CCB05927 /* Pods-PwnedPasswords_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PwnedPasswords_Tests-Info.plist"; sourceTree = "<group>"; };
-		1C87F88EEE44A8A1F5C243B743E01C15 /* Pods_PwnedPasswords_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PwnedPasswords_Tests.framework; path = "Pods-PwnedPasswords_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		225FD200E25CB2BA0240108FF013975F /* Pods-PwnedPasswords_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PwnedPasswords_Example-frameworks.sh"; sourceTree = "<group>"; };
-		287560AB528D8ACAED9503E689F94570 /* PwnedPasswords.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PwnedPasswords.xcconfig; sourceTree = "<group>"; };
+		2EE6A3B7A19E36733FC7C3F4D42F3FBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		31E2AC45CBE6DACF7D4CB2A6AE432727 /* Pods-PwnedPasswords_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PwnedPasswords_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3656B157AA65F5709F4DF8EDFB79AB2E /* Pods-PwnedPasswords_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PwnedPasswords_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3AC78E17B8625D8F165512E021CFE3DB /* Pods-PwnedPasswords_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PwnedPasswords_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3B987E8197C5BFBF1DBA4755890D9ACC /* PwnedPasswords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PwnedPasswords.framework; path = PwnedPasswords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		469BBA4499E5B73D05736911071D6C60 /* Pods_PwnedPasswords_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PwnedPasswords_Example.framework; path = "Pods-PwnedPasswords_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467824320830E979A82992AFFD73A21E /* SwiftPwnedPasswords.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftPwnedPasswords.modulemap; sourceTree = "<group>"; };
 		4F81440857E4C514B14EE8784429B5E8 /* Pods-PwnedPasswords_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PwnedPasswords_Tests.modulemap"; sourceTree = "<group>"; };
-		7A0BFDD65629DD89CB56187807BFC5DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7CD5D790BB1409881B56513239B759F1 /* PwnedPasswords.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PwnedPasswords.swift; path = src/PwnedPasswords.swift; sourceTree = "<group>"; };
-		87F351D3C91937C792BECC6799844E79 /* PwnedPasswords-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PwnedPasswords-umbrella.h"; sourceTree = "<group>"; };
-		91ABE5E902E76FE7389B03EA3037FDEB /* PwnedPasswords-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PwnedPasswords-prefix.pch"; sourceTree = "<group>"; };
+		5C6EB56157782FEAA16160315AE4B8A8 /* SwiftPwnedPasswords-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPwnedPasswords-umbrella.h"; sourceTree = "<group>"; };
+		6BF3C9E140F8881F69F8B747E7F68644 /* SwiftPwnedPasswords-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPwnedPasswords-dummy.m"; sourceTree = "<group>"; };
+		834894745E69B3F21C98D5554F6F60DA /* SwiftPwnedPasswords-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftPwnedPasswords-Info.plist"; sourceTree = "<group>"; };
+		8649D4958ADF88A90FACE77F2B76415E /* SwiftPwnedPasswords.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftPwnedPasswords.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		866532F0609FB3420716363542FEB0B4 /* Pods_PwnedPasswords_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PwnedPasswords_Example.framework; path = "Pods-PwnedPasswords_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB188551F624ACD5F4094965C417B76 /* Pods_PwnedPasswords_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PwnedPasswords_Tests.framework; path = "Pods-PwnedPasswords_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F23499CB4BADCE1BF36220002CC372 /* Pods-PwnedPasswords_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PwnedPasswords_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31287F77D04CBA13B2D2DD4BA14AF5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AB11719413D7E0EFAEDD03AEAAAC047F /* Pods-PwnedPasswords_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PwnedPasswords_Tests-dummy.m"; sourceTree = "<group>"; };
 		ABE8901BE2B343FEF20BC1618F9CE36C /* Pods-PwnedPasswords_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PwnedPasswords_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B2DDA68232FE169110DE6C57639AB1DC /* Pods-PwnedPasswords_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PwnedPasswords_Example-Info.plist"; sourceTree = "<group>"; };
-		B432A864BABD5CBF6819F04B57640F5D /* PwnedPasswords-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PwnedPasswords-dummy.m"; sourceTree = "<group>"; };
-		B49295167E49DD38E74EF65834756E3A /* PwnedPasswords.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PwnedPasswords.modulemap; sourceTree = "<group>"; };
-		B513A7A919A0B0E665AE1732EAD3D6DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BC92178F73BDF1D1817865F864F4E2DC /* Pods-PwnedPasswords_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PwnedPasswords_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8017E095E82A8FA1458F6BBA091004 /* SwiftPwnedPasswords.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPwnedPasswords.xcconfig; sourceTree = "<group>"; };
 		D3D9AF593EF6D1658E611F8FE038F38F /* Pods-PwnedPasswords_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PwnedPasswords_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE56648C7815954897C3F862CE817E5A /* Pods-PwnedPasswords_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PwnedPasswords_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3D3ED5852E53B73B824715E6ECA7833 /* SwiftPwnedPasswords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftPwnedPasswords.framework; path = SwiftPwnedPasswords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7224262C0FF7C1FDC79B55F4EB19BC8 /* Pods-PwnedPasswords_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PwnedPasswords_Example-umbrella.h"; sourceTree = "<group>"; };
+		EE09AFDF9B1753728A8763CE5A131DFC /* SwiftPwnedPasswords-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPwnedPasswords-prefix.pch"; sourceTree = "<group>"; };
+		F7A1A8D4198E224EC8F4A178D0B64AFF /* PwnedPasswords.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PwnedPasswords.swift; path = src/PwnedPasswords.swift; sourceTree = "<group>"; };
 		FF44BB32B275DEA369C31F317A5FDD92 /* Pods-PwnedPasswords_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PwnedPasswords_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2179E8C7571B2A3912118CE8F73F7417 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05AAA3F79B2ED9D3BAD6DB85B730A54B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55319961FBFF226C2B993FC459CB929F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,17 +80,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0BA7C07BD31819AB2250A0AC4ADB667 /* Frameworks */ = {
+		A7EBA3484E0672992BA54CD41DEF09C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AF0EF7BF09C0CF4DAF4758D6EECB79 /* Foundation.framework in Frameworks */,
+				CCA7ED5CE6A4267EF08A787874C1AF79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DE5FE03725A86256D44532FD2E8F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114800F040161C91A84FB3A4086C4EA3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16A0B43A3E407221625B3715316C0416 /* SwiftPwnedPasswords */ = {
+			isa = PBXGroup;
+			children = (
+				F7A1A8D4198E224EC8F4A178D0B64AFF /* PwnedPasswords.swift */,
+				D321750D86F9758646074CC1A6DA7D0B /* Pod */,
+				1D175F1923A67D14396D91A126C2747C /* Support Files */,
+			);
+			name = SwiftPwnedPasswords;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D175F1923A67D14396D91A126C2747C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				467824320830E979A82992AFFD73A21E /* SwiftPwnedPasswords.modulemap */,
+				CE8017E095E82A8FA1458F6BBA091004 /* SwiftPwnedPasswords.xcconfig */,
+				6BF3C9E140F8881F69F8B747E7F68644 /* SwiftPwnedPasswords-dummy.m */,
+				834894745E69B3F21C98D5554F6F60DA /* SwiftPwnedPasswords-Info.plist */,
+				EE09AFDF9B1753728A8763CE5A131DFC /* SwiftPwnedPasswords-prefix.pch */,
+				5C6EB56157782FEAA16160315AE4B8A8 /* SwiftPwnedPasswords-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftPwnedPasswords";
+			sourceTree = "<group>";
+		};
 		6DAF6C3C32766EACF2B9808AAABCD669 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,39 +133,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		71BD64C23FEAD597115FF24CB4318F44 /* Pod */ = {
+		8F2750F93F6DE361E15E1F3DFE6907CB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7A0BFDD65629DD89CB56187807BFC5DF /* LICENSE */,
-				0BF631BACD219ABBEF5F89DA98A5D4B7 /* PwnedPasswords.podspec */,
-				B513A7A919A0B0E665AE1732EAD3D6DE /* README.md */,
+				16A0B43A3E407221625B3715316C0416 /* SwiftPwnedPasswords */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AD708E0FB8F14277E1945E80AC6C6C36 /* Support Files */ = {
+		B1C0AAB7D3B66E15518C69863054E001 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B49295167E49DD38E74EF65834756E3A /* PwnedPasswords.modulemap */,
-				287560AB528D8ACAED9503E689F94570 /* PwnedPasswords.xcconfig */,
-				B432A864BABD5CBF6819F04B57640F5D /* PwnedPasswords-dummy.m */,
-				09D98E45D98E5140A1E1B73C262E0C0D /* PwnedPasswords-Info.plist */,
-				91ABE5E902E76FE7389B03EA3037FDEB /* PwnedPasswords-prefix.pch */,
-				87F351D3C91937C792BECC6799844E79 /* PwnedPasswords-umbrella.h */,
+				866532F0609FB3420716363542FEB0B4 /* Pods_PwnedPasswords_Example.framework */,
+				8BB188551F624ACD5F4094965C417B76 /* Pods_PwnedPasswords_Tests.framework */,
+				E3D3ED5852E53B73B824715E6ECA7833 /* SwiftPwnedPasswords.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PwnedPasswords";
-			sourceTree = "<group>";
-		};
-		B5F07787EA4324AD37B775A3157BC9C1 /* PwnedPasswords */ = {
-			isa = PBXGroup;
-			children = (
-				7CD5D790BB1409881B56513239B759F1 /* PwnedPasswords.swift */,
-				71BD64C23FEAD597115FF24CB4318F44 /* Pod */,
-				AD708E0FB8F14277E1945E80AC6C6C36 /* Support Files */,
-			);
-			name = PwnedPasswords;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -151,31 +159,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CC69A82A54B4DA8A15B9B86B0AFD761A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B5F07787EA4324AD37B775A3157BC9C1 /* PwnedPasswords */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CE9248DC23136A5169EB613CE3CC20E2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				469BBA4499E5B73D05736911071D6C60 /* Pods_PwnedPasswords_Example.framework */,
-				1C87F88EEE44A8A1F5C243B743E01C15 /* Pods_PwnedPasswords_Tests.framework */,
-				3B987E8197C5BFBF1DBA4755890D9ACC /* PwnedPasswords.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CC69A82A54B4DA8A15B9B86B0AFD761A /* Development Pods */,
+				8F2750F93F6DE361E15E1F3DFE6907CB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CE9248DC23136A5169EB613CE3CC20E2 /* Products */,
+				B1C0AAB7D3B66E15518C69863054E001 /* Products */,
 				6DAF6C3C32766EACF2B9808AAABCD669 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -186,6 +176,16 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D321750D86F9758646074CC1A6DA7D0B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2EE6A3B7A19E36733FC7C3F4D42F3FBF /* LICENSE */,
+				A31287F77D04CBA13B2D2DD4BA14AF5A /* README.md */,
+				8649D4958ADF88A90FACE77F2B76415E /* SwiftPwnedPasswords.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DCFA8C24F23DDEC00B844F5DC38BBDD0 /* Pods-PwnedPasswords_Example */ = {
@@ -224,19 +224,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0206629F215C08951A6F92E4639B9AD1 /* Headers */ = {
+		6D35DEB54D9016752FD5139838CCEA64 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6AF1FCF4D24CD92BB7BBBAE70554DC6 /* PwnedPasswords-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C13E2B6F3A691C6180B864D6D35A71F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F77F616083B6945EC51C37DDAACA5C1 /* Pods-PwnedPasswords_Example-umbrella.h in Headers */,
+				E35114C72D7D477C07030A41BF48807B /* Pods-PwnedPasswords_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +237,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3E6C8DD1724E3142CE2C2917348CF47 /* Pods-PwnedPasswords_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A8EEB4D641CDCA153C3543FE67FE83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E81BF8AE0FCE77976F5B00881606B45 /* SwiftPwnedPasswords-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,44 +267,44 @@
 			);
 			name = "Pods-PwnedPasswords_Tests";
 			productName = "Pods-PwnedPasswords_Tests";
-			productReference = 1C87F88EEE44A8A1F5C243B743E01C15 /* Pods_PwnedPasswords_Tests.framework */;
+			productReference = 8BB188551F624ACD5F4094965C417B76 /* Pods_PwnedPasswords_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		409EF450651549D392AB558BE3FE2DC4 /* Pods-PwnedPasswords_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA78257C06882C8115F072F378400CE2 /* Build configuration list for PBXNativeTarget "Pods-PwnedPasswords_Example" */;
+			buildConfigurationList = 6B77B06786DA56692B3760E10369F96A /* Build configuration list for PBXNativeTarget "Pods-PwnedPasswords_Example" */;
 			buildPhases = (
-				3C13E2B6F3A691C6180B864D6D35A71F /* Headers */,
-				85A0A987A0E612D35B73804D3AD2B29B /* Sources */,
-				2179E8C7571B2A3912118CE8F73F7417 /* Frameworks */,
-				E302383CB1411C706B1775544884868A /* Resources */,
+				6D35DEB54D9016752FD5139838CCEA64 /* Headers */,
+				449C65F82B627279C24CD51BC42CAE27 /* Sources */,
+				C9DE5FE03725A86256D44532FD2E8F0A /* Frameworks */,
+				CE608EDB6E8FCF7EDC1826A34D0C0C24 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				82CDD6D3EE5E21D6D410A1E1D429DBF9 /* PBXTargetDependency */,
+				A2F888D08B9D8F11BF0B04FE182CBBB4 /* PBXTargetDependency */,
 			);
 			name = "Pods-PwnedPasswords_Example";
 			productName = "Pods-PwnedPasswords_Example";
-			productReference = 469BBA4499E5B73D05736911071D6C60 /* Pods_PwnedPasswords_Example.framework */;
+			productReference = 866532F0609FB3420716363542FEB0B4 /* Pods_PwnedPasswords_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8E7EA3F808455F21DF692C7F6241E9F1 /* PwnedPasswords */ = {
+		E3CD57A8590F3BBEA2D310F676BB67E2 /* SwiftPwnedPasswords */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C6856F13EDDDEB3D0CA04C1DE833FDB /* Build configuration list for PBXNativeTarget "PwnedPasswords" */;
+			buildConfigurationList = 46BB12381CAFF65B327D1EB523EBB11A /* Build configuration list for PBXNativeTarget "SwiftPwnedPasswords" */;
 			buildPhases = (
-				0206629F215C08951A6F92E4639B9AD1 /* Headers */,
-				8C30B0102A31086F16EF348BB8C74F97 /* Sources */,
-				B0BA7C07BD31819AB2250A0AC4ADB667 /* Frameworks */,
-				FEF32B230B6F71F10181E1C91C0395B5 /* Resources */,
+				75A8EEB4D641CDCA153C3543FE67FE83 /* Headers */,
+				2FC3A7ED923194D5A8684216E8A2B757 /* Sources */,
+				A7EBA3484E0672992BA54CD41DEF09C8 /* Frameworks */,
+				FA67A10B50A10A36833230ACFA8D20D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PwnedPasswords;
-			productName = PwnedPasswords;
-			productReference = 3B987E8197C5BFBF1DBA4755890D9ACC /* PwnedPasswords.framework */;
+			name = SwiftPwnedPasswords;
+			productName = SwiftPwnedPasswords;
+			productReference = E3D3ED5852E53B73B824715E6ECA7833 /* SwiftPwnedPasswords.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,19 +324,19 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CE9248DC23136A5169EB613CE3CC20E2 /* Products */;
+			productRefGroup = B1C0AAB7D3B66E15518C69863054E001 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				409EF450651549D392AB558BE3FE2DC4 /* Pods-PwnedPasswords_Example */,
 				04719079C20D79B0993F0A559430D443 /* Pods-PwnedPasswords_Tests */,
-				8E7EA3F808455F21DF692C7F6241E9F1 /* PwnedPasswords */,
+				E3CD57A8590F3BBEA2D310F676BB67E2 /* SwiftPwnedPasswords */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E302383CB1411C706B1775544884868A /* Resources */ = {
+		CE608EDB6E8FCF7EDC1826A34D0C0C24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEF32B230B6F71F10181E1C91C0395B5 /* Resources */ = {
+		FA67A10B50A10A36833230ACFA8D20D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,20 +360,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		85A0A987A0E612D35B73804D3AD2B29B /* Sources */ = {
+		2FC3A7ED923194D5A8684216E8A2B757 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52740C19B81FBB4876F59AD96E1E9468 /* Pods-PwnedPasswords_Example-dummy.m in Sources */,
+				0D54A449A820ED20F2FA5C785011FDC8 /* PwnedPasswords.swift in Sources */,
+				DFC6C019DF2D725003D2A6E677AB66BC /* SwiftPwnedPasswords-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C30B0102A31086F16EF348BB8C74F97 /* Sources */ = {
+		449C65F82B627279C24CD51BC42CAE27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899C5B49D63C3D6A05E36FAB85F9EAE1 /* PwnedPasswords-dummy.m in Sources */,
-				BB0942A5414D49F8FE7988182434D1CC /* PwnedPasswords.swift in Sources */,
+				F53821F27E2BA1BB0E4FCCE19BD13C29 /* Pods-PwnedPasswords_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,20 +394,19 @@
 			target = 409EF450651549D392AB558BE3FE2DC4 /* Pods-PwnedPasswords_Example */;
 			targetProxy = 580CEB620E9C0AD486F47E92D6F94310 /* PBXContainerItemProxy */;
 		};
-		82CDD6D3EE5E21D6D410A1E1D429DBF9 /* PBXTargetDependency */ = {
+		A2F888D08B9D8F11BF0B04FE182CBBB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PwnedPasswords;
-			target = 8E7EA3F808455F21DF692C7F6241E9F1 /* PwnedPasswords */;
-			targetProxy = E79F6A819C63DC680E2442A9F56B25D5 /* PBXContainerItemProxy */;
+			name = SwiftPwnedPasswords;
+			target = E3CD57A8590F3BBEA2D310F676BB67E2 /* SwiftPwnedPasswords */;
+			targetProxy = D675C1AA6E8036B81B7EB83ACF5766C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		106EB87853676335126DFECA6D48557C /* Release */ = {
+		047DCD234DA9D2DDDADCACD6583ADBC0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13A09C7D611CD19321A55E5978769293 /* Pods-PwnedPasswords_Example.release.xcconfig */;
+			baseConfigurationReference = CE8017E095E82A8FA1458F6BBA091004 /* SwiftPwnedPasswords.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -417,19 +416,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PwnedPasswords_Example/Pods-PwnedPasswords_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftPwnedPasswords/SwiftPwnedPasswords-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftPwnedPasswords/SwiftPwnedPasswords-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PwnedPasswords_Example/Pods-PwnedPasswords_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftPwnedPasswords/SwiftPwnedPasswords.modulemap";
+				PRODUCT_MODULE_NAME = SwiftPwnedPasswords;
+				PRODUCT_NAME = SwiftPwnedPasswords;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -470,70 +468,7 @@
 			};
 			name = Debug;
 		};
-		37D1740710E13EA53D24C9577D429EF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287560AB528D8ACAED9503E689F94570 /* PwnedPasswords.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PwnedPasswords/PwnedPasswords-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PwnedPasswords/PwnedPasswords-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PwnedPasswords/PwnedPasswords.modulemap";
-				PRODUCT_MODULE_NAME = PwnedPasswords;
-				PRODUCT_NAME = PwnedPasswords;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		84D1601754741FC30808EC233F0D32AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287560AB528D8ACAED9503E689F94570 /* PwnedPasswords.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PwnedPasswords/PwnedPasswords-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PwnedPasswords/PwnedPasswords-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PwnedPasswords/PwnedPasswords.modulemap";
-				PRODUCT_MODULE_NAME = PwnedPasswords;
-				PRODUCT_NAME = PwnedPasswords;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A8D49FE0B414565A35209648E10E6075 /* Debug */ = {
+		56801B7D52BB3724492C3EE6FC99B25E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC78E17B8625D8F165512E021CFE3DB /* Pods-PwnedPasswords_Example.debug.xcconfig */;
 			buildSettings = {
@@ -560,6 +495,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B35FC501C05461A2CAD539CC4F52476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8017E095E82A8FA1458F6BBA091004 /* SwiftPwnedPasswords.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftPwnedPasswords/SwiftPwnedPasswords-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftPwnedPasswords/SwiftPwnedPasswords-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftPwnedPasswords/SwiftPwnedPasswords.modulemap";
+				PRODUCT_MODULE_NAME = SwiftPwnedPasswords;
+				PRODUCT_NAME = SwiftPwnedPasswords;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -690,6 +656,40 @@
 			};
 			name = Debug;
 		};
+		B9FCB40B1D291532D4EDF52ECC18C031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A09C7D611CD19321A55E5978769293 /* Pods-PwnedPasswords_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PwnedPasswords_Example/Pods-PwnedPasswords_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PwnedPasswords_Example/Pods-PwnedPasswords_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BCD863AD250CB2EF8545E8471E4B07A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABE8901BE2B343FEF20BC1618F9CE36C /* Pods-PwnedPasswords_Tests.release.xcconfig */;
@@ -736,6 +736,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		46BB12381CAFF65B327D1EB523EBB11A /* Build configuration list for PBXNativeTarget "SwiftPwnedPasswords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B35FC501C05461A2CAD539CC4F52476 /* Debug */,
+				047DCD234DA9D2DDDADCACD6583ADBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -745,20 +754,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C6856F13EDDDEB3D0CA04C1DE833FDB /* Build configuration list for PBXNativeTarget "PwnedPasswords" */ = {
+		6B77B06786DA56692B3760E10369F96A /* Build configuration list for PBXNativeTarget "Pods-PwnedPasswords_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37D1740710E13EA53D24C9577D429EF3 /* Debug */,
-				84D1601754741FC30808EC233F0D32AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA78257C06882C8115F072F378400CE2 /* Build configuration list for PBXNativeTarget "Pods-PwnedPasswords_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8D49FE0B414565A35209648E10E6075 /* Debug */,
-				106EB87853676335126DFECA6D48557C /* Release */,
+				56801B7D52BB3724492C3EE6FC99B25E /* Debug */,
+				B9FCB40B1D291532D4EDF52ECC18C031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

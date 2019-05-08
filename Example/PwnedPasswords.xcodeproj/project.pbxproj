@@ -292,11 +292,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PwnedPasswords_Example/Pods-PwnedPasswords_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PwnedPasswords/PwnedPasswords.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftPwnedPasswords/SwiftPwnedPasswords.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PwnedPasswords.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPwnedPasswords.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

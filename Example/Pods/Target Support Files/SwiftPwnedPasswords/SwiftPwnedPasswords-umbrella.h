@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double PwnedPasswordsVersionNumber;
-FOUNDATION_EXPORT const unsigned char PwnedPasswordsVersionString[];
+FOUNDATION_EXPORT double SwiftPwnedPasswordsVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftPwnedPasswordsVersionString[];
 

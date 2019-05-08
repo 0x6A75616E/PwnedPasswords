@@ -1,16 +1,16 @@
 PODS:
-  - PwnedPasswords (0.1.0)
+  - SwiftPwnedPasswords (0.1.2)
 
 DEPENDENCIES:
-  - PwnedPasswords (from `../`)
+  - SwiftPwnedPasswords (from `../`)
 
 EXTERNAL SOURCES:
-  PwnedPasswords:
+  SwiftPwnedPasswords:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PwnedPasswords: 386dda45fc1bfa446254f0df03aee0ac05b23ed6
+  SwiftPwnedPasswords: 297ebae12b21fe63e854ac28f798605302fb5556
 
-PODFILE CHECKSUM: 2021494a2a9fb331dc046a282c72fa29516067e5
+PODFILE CHECKSUM: d788844d490c8950a5591d0efaac39a910b97e31
 
 COCOAPODS: 1.7.0.rc.1
