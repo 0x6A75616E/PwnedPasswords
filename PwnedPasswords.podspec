@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PwnedPasswords'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A client for HaveIBeenPwned.com\'s compromised passwords API. Written in Swift, with no dependencies.'
 
   s.description      = <<-DESC
@@ -16,5 +16,7 @@ PwnedPasswords implements a dependency-free, Swift native client for HaveIBeenPw
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'src/**/*'
+
+  s.swift_version = '5.0'
 
 end
