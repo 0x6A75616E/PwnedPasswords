@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'PwnedPasswords'
-  s.version          = '0.1.1'
+  s.name             = 'SwiftPwnedPasswords'
+  s.version          = '0.1.2'
   s.summary          = 'A client for HaveIBeenPwned.com\'s compromised passwords API. Written in Swift, with no dependencies.'
 
   s.description      = <<-DESC
